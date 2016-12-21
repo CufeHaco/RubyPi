@@ -68,7 +68,7 @@ end
 		 system 'kodi' if $user_input =~ /3/               ;  
 		 system 'sudo reboot' if $user_input =~ /4/        ;
 		 load './RubyPi.rb' if $user_input =~ /b|B/        ;              
-		 load './RubyPi.rb
+		 load './RubyPi.rb'
 		 
 	break if $user_input =~ /q|Q/  
 	puts $user_input
